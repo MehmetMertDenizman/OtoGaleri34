@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+    <html>
+        <head>
+        </head>
+        <body>
+        <p id="KULDENE">KULLANICI KONUMU:</p>
+        <button onclick="getuserlocation()">KONUM KONTROL</button>
+
+        <div id="HARİTA"></div>
+
+        <script>
+                var x=document.getElementById("KULDENE");
+                function getuserlocation(){
+                    if (navigator.geolocation){
+                        navigator.geolocation.getCurrentPosition(showuserPosition, showbrowserError);
+
+
+                    }
+                    else{
+                        x.innerHTML="Tarayıcın desteklemiyor";
+                    }
+
+                }
+            function showuserPosition(position){
+                var latlon=position.coords.latitude+","+position.coords.longitude;
+                var img_url="https://maps.googleapis.com/maps/api/staticmap?center="
+                +latlon;
+                document.getElementById("HARİTA").innerHTML="<img src='"+img_url+"'>";
+
+
+            }
+            function showbrowserError(error){
+                switch(error.code)
+                {
+                    case error.PERMISSION_DENIED:
+                    x.innerHTML="TALEBİ REDDETTİN"
+                    break;
+                    case error.POSITION_UNAVAILABLE:
+                    x.innerHTML="KONUM BILGISI YOK"
+                    break;
+                    case error.TIMEOUT:
+                    x.innerHTML="zaman aşımı"
+                    break;
+                    case error.UNKOWN_ERROR:
+                    x.innerHTML="BILINMEYEN HATA"
+                    break;
+
+                }
+
+
+
+            }
+        </script>
+
+
+
+
+        </body>
+    </html>
