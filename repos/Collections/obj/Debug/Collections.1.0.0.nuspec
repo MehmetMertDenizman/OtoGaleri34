@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Collections</id>
+    <version>1.0.0</version>
+    <authors>Collections</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Adm\source\repos\Collections\bin\Debug\net6.0\Collections.runtimeconfig.json" target="lib\net6.0\Collections.runtimeconfig.json" />
+    <file src="C:\Users\Adm\source\repos\Collections\bin\Debug\net6.0\Collections.dll" target="lib\net6.0\Collections.dll" />
+  </files>
+</package>

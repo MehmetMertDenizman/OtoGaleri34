@@ -1,0 +1,15 @@
+C:\Users\Adm\source\repos\newBeginnin\newBeginnin\bin\Debug\net6.0\newBeginnin.exe
+C:\Users\Adm\source\repos\newBeginnin\newBeginnin\bin\Debug\net6.0\newBeginnin.deps.json
+C:\Users\Adm\source\repos\newBeginnin\newBeginnin\bin\Debug\net6.0\newBeginnin.runtimeconfig.json
+C:\Users\Adm\source\repos\newBeginnin\newBeginnin\bin\Debug\net6.0\newBeginnin.dll
+C:\Users\Adm\source\repos\newBeginnin\newBeginnin\bin\Debug\net6.0\newBeginnin.pdb
+C:\Users\Adm\source\repos\newBeginnin\newBeginnin\obj\Debug\net6.0\newBeginnin.csproj.AssemblyReference.cache
+C:\Users\Adm\source\repos\newBeginnin\newBeginnin\obj\Debug\net6.0\newBeginnin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Adm\source\repos\newBeginnin\newBeginnin\obj\Debug\net6.0\newBeginnin.AssemblyInfoInputs.cache
+C:\Users\Adm\source\repos\newBeginnin\newBeginnin\obj\Debug\net6.0\newBeginnin.AssemblyInfo.cs
+C:\Users\Adm\source\repos\newBeginnin\newBeginnin\obj\Debug\net6.0\newBeginnin.csproj.CoreCompileInputs.cache
+C:\Users\Adm\source\repos\newBeginnin\newBeginnin\obj\Debug\net6.0\newBeginnin.dll
+C:\Users\Adm\source\repos\newBeginnin\newBeginnin\obj\Debug\net6.0\refint\newBeginnin.dll
+C:\Users\Adm\source\repos\newBeginnin\newBeginnin\obj\Debug\net6.0\newBeginnin.pdb
+C:\Users\Adm\source\repos\newBeginnin\newBeginnin\obj\Debug\net6.0\newBeginnin.genruntimeconfig.cache
+C:\Users\Adm\source\repos\newBeginnin\newBeginnin\obj\Debug\net6.0\ref\newBeginnin.dll

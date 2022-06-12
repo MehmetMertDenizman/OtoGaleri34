@@ -1,0 +1,7 @@
+C:\Users\Adm\source\obj\Debug\net6.0\source.csproj.AssemblyReference.cache
+C:\Users\Adm\source\obj\Debug\net6.0\yeniForm.Form1.resources
+C:\Users\Adm\source\obj\Debug\net6.0\source.csproj.GenerateResource.cache
+C:\Users\Adm\source\obj\Debug\net6.0\source.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Adm\source\obj\Debug\net6.0\source.AssemblyInfoInputs.cache
+C:\Users\Adm\source\obj\Debug\net6.0\source.AssemblyInfo.cs
+C:\Users\Adm\source\obj\Debug\net6.0\source.csproj.CoreCompileInputs.cache

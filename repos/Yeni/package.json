@@ -1,0 +1,9 @@
+{
+  "name": "yeni",
+  "version": "0.0.0",
+  "description": "Yeni",
+  "main": "server.js",
+  "author": {
+    "name": ""
+  }
+}

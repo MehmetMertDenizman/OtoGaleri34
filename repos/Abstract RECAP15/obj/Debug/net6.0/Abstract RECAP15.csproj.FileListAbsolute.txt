@@ -1,0 +1,15 @@
+C:\Users\Adm\source\repos\Abstract RECAP15\bin\Debug\net6.0\Abstract RECAP15.exe
+C:\Users\Adm\source\repos\Abstract RECAP15\bin\Debug\net6.0\Abstract RECAP15.deps.json
+C:\Users\Adm\source\repos\Abstract RECAP15\bin\Debug\net6.0\Abstract RECAP15.runtimeconfig.json
+C:\Users\Adm\source\repos\Abstract RECAP15\bin\Debug\net6.0\Abstract RECAP15.dll
+C:\Users\Adm\source\repos\Abstract RECAP15\bin\Debug\net6.0\Abstract RECAP15.pdb
+C:\Users\Adm\source\repos\Abstract RECAP15\obj\Debug\net6.0\Abstract RECAP15.csproj.AssemblyReference.cache
+C:\Users\Adm\source\repos\Abstract RECAP15\obj\Debug\net6.0\Abstract RECAP15.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Adm\source\repos\Abstract RECAP15\obj\Debug\net6.0\Abstract RECAP15.AssemblyInfoInputs.cache
+C:\Users\Adm\source\repos\Abstract RECAP15\obj\Debug\net6.0\Abstract RECAP15.AssemblyInfo.cs
+C:\Users\Adm\source\repos\Abstract RECAP15\obj\Debug\net6.0\Abstract RECAP15.csproj.CoreCompileInputs.cache
+C:\Users\Adm\source\repos\Abstract RECAP15\obj\Debug\net6.0\Abstract RECAP15.dll
+C:\Users\Adm\source\repos\Abstract RECAP15\obj\Debug\net6.0\refint\Abstract RECAP15.dll
+C:\Users\Adm\source\repos\Abstract RECAP15\obj\Debug\net6.0\Abstract RECAP15.pdb
+C:\Users\Adm\source\repos\Abstract RECAP15\obj\Debug\net6.0\Abstract RECAP15.genruntimeconfig.cache
+C:\Users\Adm\source\repos\Abstract RECAP15\obj\Debug\net6.0\ref\Abstract RECAP15.dll

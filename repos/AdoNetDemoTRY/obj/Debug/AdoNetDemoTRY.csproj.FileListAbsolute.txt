@@ -1,0 +1,11 @@
+C:\Users\Adm\source\repos\AdoNetDemoTRY\bin\Debug\AdoNetDemoTRY.exe.config
+C:\Users\Adm\source\repos\AdoNetDemoTRY\bin\Debug\AdoNetDemoTRY.exe
+C:\Users\Adm\source\repos\AdoNetDemoTRY\bin\Debug\AdoNetDemoTRY.pdb
+C:\Users\Adm\source\repos\AdoNetDemoTRY\obj\Debug\AdoNetDemoTRY.csproj.AssemblyReference.cache
+C:\Users\Adm\source\repos\AdoNetDemoTRY\obj\Debug\AdoNetDemoTRY.csproj.SuggestedBindingRedirects.cache
+C:\Users\Adm\source\repos\AdoNetDemoTRY\obj\Debug\AdoNetDemoTRY.Form1.resources
+C:\Users\Adm\source\repos\AdoNetDemoTRY\obj\Debug\AdoNetDemoTRY.Properties.Resources.resources
+C:\Users\Adm\source\repos\AdoNetDemoTRY\obj\Debug\AdoNetDemoTRY.csproj.GenerateResource.cache
+C:\Users\Adm\source\repos\AdoNetDemoTRY\obj\Debug\AdoNetDemoTRY.csproj.CoreCompileInputs.cache
+C:\Users\Adm\source\repos\AdoNetDemoTRY\obj\Debug\AdoNetDemoTRY.exe
+C:\Users\Adm\source\repos\AdoNetDemoTRY\obj\Debug\AdoNetDemoTRY.pdb

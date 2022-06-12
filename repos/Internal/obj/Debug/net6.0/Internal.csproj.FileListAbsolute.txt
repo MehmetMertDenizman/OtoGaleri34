@@ -1,0 +1,15 @@
+C:\Users\Adm\source\repos\Internal\bin\Debug\net6.0\Internal.exe
+C:\Users\Adm\source\repos\Internal\bin\Debug\net6.0\Internal.deps.json
+C:\Users\Adm\source\repos\Internal\bin\Debug\net6.0\Internal.runtimeconfig.json
+C:\Users\Adm\source\repos\Internal\bin\Debug\net6.0\Internal.dll
+C:\Users\Adm\source\repos\Internal\bin\Debug\net6.0\Internal.pdb
+C:\Users\Adm\source\repos\Internal\obj\Debug\net6.0\Internal.csproj.AssemblyReference.cache
+C:\Users\Adm\source\repos\Internal\obj\Debug\net6.0\Internal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Adm\source\repos\Internal\obj\Debug\net6.0\Internal.AssemblyInfoInputs.cache
+C:\Users\Adm\source\repos\Internal\obj\Debug\net6.0\Internal.AssemblyInfo.cs
+C:\Users\Adm\source\repos\Internal\obj\Debug\net6.0\Internal.csproj.CoreCompileInputs.cache
+C:\Users\Adm\source\repos\Internal\obj\Debug\net6.0\Internal.dll
+C:\Users\Adm\source\repos\Internal\obj\Debug\net6.0\refint\Internal.dll
+C:\Users\Adm\source\repos\Internal\obj\Debug\net6.0\Internal.pdb
+C:\Users\Adm\source\repos\Internal\obj\Debug\net6.0\Internal.genruntimeconfig.cache
+C:\Users\Adm\source\repos\Internal\obj\Debug\net6.0\ref\Internal.dll

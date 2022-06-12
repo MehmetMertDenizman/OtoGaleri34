@@ -1,0 +1,3 @@
+C:\Users\Adm\source\repos\Yeni\obj\Debug\Yeni.njsproj.AssemblyReference.cache
+C:\Users\Adm\source\repos\Yeni\obj\Debug\Yeni.njsproj.CoreCompileInputs.cache
+C:\Users\Adm\source\repos\Yeni\bin\Microsoft.NodejsTools.WebRole.dll

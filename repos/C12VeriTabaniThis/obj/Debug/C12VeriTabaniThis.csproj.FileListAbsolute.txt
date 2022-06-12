@@ -1,0 +1,12 @@
+C:\Users\Adm\source\repos\C12VeriTabaniThis\bin\Debug\C12VeriTabaniThis.exe.config
+C:\Users\Adm\source\repos\C12VeriTabaniThis\bin\Debug\C12VeriTabaniThis.exe
+C:\Users\Adm\source\repos\C12VeriTabaniThis\bin\Debug\C12VeriTabaniThis.pdb
+C:\Users\Adm\source\repos\C12VeriTabaniThis\obj\Debug\C12VeriTabaniThis.csproj.AssemblyReference.cache
+C:\Users\Adm\source\repos\C12VeriTabaniThis\obj\Debug\C12VeriTabaniThis.csproj.SuggestedBindingRedirects.cache
+C:\Users\Adm\source\repos\C12VeriTabaniThis\obj\Debug\C12VeriTabaniThis.Form1.resources
+C:\Users\Adm\source\repos\C12VeriTabaniThis\obj\Debug\C12VeriTabaniThis.Properties.Resources.resources
+C:\Users\Adm\source\repos\C12VeriTabaniThis\obj\Debug\C12VeriTabaniThis.csproj.GenerateResource.cache
+C:\Users\Adm\source\repos\C12VeriTabaniThis\obj\Debug\C12VeriTabaniThis.csproj.CoreCompileInputs.cache
+C:\Users\Adm\source\repos\C12VeriTabaniThis\obj\Debug\C12VeriTabaniThis.exe
+C:\Users\Adm\source\repos\C12VeriTabaniThis\obj\Debug\C12VeriTabaniThis.pdb
+C:\Users\Adm\source\repos\C12VeriTabaniThis\obj\Debug\C12VeriTabaniThis.Form2.resources

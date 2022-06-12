@@ -1,0 +1,17 @@
+C:\Users\Adm\source\repos\C11ZarVeBilgiYarış\bin\Debug\net6.0-windows\C11ZarVeBilgiYarış.exe
+C:\Users\Adm\source\repos\C11ZarVeBilgiYarış\bin\Debug\net6.0-windows\C11ZarVeBilgiYarış.deps.json
+C:\Users\Adm\source\repos\C11ZarVeBilgiYarış\bin\Debug\net6.0-windows\C11ZarVeBilgiYarış.runtimeconfig.json
+C:\Users\Adm\source\repos\C11ZarVeBilgiYarış\bin\Debug\net6.0-windows\C11ZarVeBilgiYarış.dll
+C:\Users\Adm\source\repos\C11ZarVeBilgiYarış\bin\Debug\net6.0-windows\C11ZarVeBilgiYarış.pdb
+C:\Users\Adm\source\repos\C11ZarVeBilgiYarış\obj\Debug\net6.0-windows\C11ZarVeBilgiYarış.csproj.AssemblyReference.cache
+C:\Users\Adm\source\repos\C11ZarVeBilgiYarış\obj\Debug\net6.0-windows\C11ZarVeBilgiYarış.Form1.resources
+C:\Users\Adm\source\repos\C11ZarVeBilgiYarış\obj\Debug\net6.0-windows\C11ZarVeBilgiYarış.csproj.GenerateResource.cache
+C:\Users\Adm\source\repos\C11ZarVeBilgiYarış\obj\Debug\net6.0-windows\C11ZarVeBilgiYarış.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Adm\source\repos\C11ZarVeBilgiYarış\obj\Debug\net6.0-windows\C11ZarVeBilgiYarış.AssemblyInfoInputs.cache
+C:\Users\Adm\source\repos\C11ZarVeBilgiYarış\obj\Debug\net6.0-windows\C11ZarVeBilgiYarış.AssemblyInfo.cs
+C:\Users\Adm\source\repos\C11ZarVeBilgiYarış\obj\Debug\net6.0-windows\C11ZarVeBilgiYarış.csproj.CoreCompileInputs.cache
+C:\Users\Adm\source\repos\C11ZarVeBilgiYarış\obj\Debug\net6.0-windows\C11ZarVeBilgiYarış.dll
+C:\Users\Adm\source\repos\C11ZarVeBilgiYarış\obj\Debug\net6.0-windows\refint\C11ZarVeBilgiYarış.dll
+C:\Users\Adm\source\repos\C11ZarVeBilgiYarış\obj\Debug\net6.0-windows\C11ZarVeBilgiYarış.pdb
+C:\Users\Adm\source\repos\C11ZarVeBilgiYarış\obj\Debug\net6.0-windows\C11ZarVeBilgiYarış.genruntimeconfig.cache
+C:\Users\Adm\source\repos\C11ZarVeBilgiYarış\obj\Debug\net6.0-windows\ref\C11ZarVeBilgiYarış.dll

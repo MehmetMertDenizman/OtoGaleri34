@@ -1,0 +1,15 @@
+C:\Users\Adm\source\repos\GenericColl\bin\Debug\net6.0\GenericColl.exe
+C:\Users\Adm\source\repos\GenericColl\bin\Debug\net6.0\GenericColl.deps.json
+C:\Users\Adm\source\repos\GenericColl\bin\Debug\net6.0\GenericColl.runtimeconfig.json
+C:\Users\Adm\source\repos\GenericColl\bin\Debug\net6.0\GenericColl.dll
+C:\Users\Adm\source\repos\GenericColl\bin\Debug\net6.0\GenericColl.pdb
+C:\Users\Adm\source\repos\GenericColl\obj\Debug\net6.0\GenericColl.csproj.AssemblyReference.cache
+C:\Users\Adm\source\repos\GenericColl\obj\Debug\net6.0\GenericColl.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Adm\source\repos\GenericColl\obj\Debug\net6.0\GenericColl.AssemblyInfoInputs.cache
+C:\Users\Adm\source\repos\GenericColl\obj\Debug\net6.0\GenericColl.AssemblyInfo.cs
+C:\Users\Adm\source\repos\GenericColl\obj\Debug\net6.0\GenericColl.csproj.CoreCompileInputs.cache
+C:\Users\Adm\source\repos\GenericColl\obj\Debug\net6.0\GenericColl.dll
+C:\Users\Adm\source\repos\GenericColl\obj\Debug\net6.0\refint\GenericColl.dll
+C:\Users\Adm\source\repos\GenericColl\obj\Debug\net6.0\GenericColl.pdb
+C:\Users\Adm\source\repos\GenericColl\obj\Debug\net6.0\GenericColl.genruntimeconfig.cache
+C:\Users\Adm\source\repos\GenericColl\obj\Debug\net6.0\ref\GenericColl.dll

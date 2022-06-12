@@ -1,0 +1,17 @@
+C:\Users\Adm\source\repos\C9Timer\bin\Debug\C9Timer.exe.config
+C:\Users\Adm\source\repos\C9Timer\bin\Debug\C9Timer.exe
+C:\Users\Adm\source\repos\C9Timer\bin\Debug\C9Timer.pdb
+C:\Users\Adm\source\repos\C9Timer\obj\Debug\C9Timer.csproj.AssemblyReference.cache
+C:\Users\Adm\source\repos\C9Timer\obj\Debug\C9Timer.csproj.SuggestedBindingRedirects.cache
+C:\Users\Adm\source\repos\C9Timer\obj\Debug\C9Timer.Form1.resources
+C:\Users\Adm\source\repos\C9Timer\obj\Debug\C9Timer.Properties.Resources.resources
+C:\Users\Adm\source\repos\C9Timer\obj\Debug\C9Timer.csproj.GenerateResource.cache
+C:\Users\Adm\source\repos\C9Timer\obj\Debug\C9Timer.csproj.CoreCompileInputs.cache
+C:\Users\Adm\source\repos\C9Timer\obj\Debug\C9Timer.exe
+C:\Users\Adm\source\repos\C9Timer\obj\Debug\C9Timer.pdb
+C:\Users\Adm\source\repos\C9Timer\obj\Debug\C9Timer.Form2.resources
+C:\Users\Adm\source\repos\C9Timer\bin\Debug\Interop.WMPLib.dll
+C:\Users\Adm\source\repos\C9Timer\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Adm\source\repos\C9Timer\obj\Debug\Interop.WMPLib.dll
+C:\Users\Adm\source\repos\C9Timer\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Adm\source\repos\C9Timer\obj\Debug\C9Timer.csproj.ResolveComReference.cache

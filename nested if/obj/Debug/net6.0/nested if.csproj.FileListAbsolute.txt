@@ -1,0 +1,15 @@
+C:\Users\Adm\source\nested if\obj\Debug\net6.0\nested if.csproj.AssemblyReference.cache
+C:\Users\Adm\source\nested if\obj\Debug\net6.0\nested if.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Adm\source\nested if\obj\Debug\net6.0\nested if.AssemblyInfoInputs.cache
+C:\Users\Adm\source\nested if\obj\Debug\net6.0\nested if.AssemblyInfo.cs
+C:\Users\Adm\source\nested if\obj\Debug\net6.0\nested if.csproj.CoreCompileInputs.cache
+C:\Users\Adm\source\nested if\bin\Debug\net6.0\nested if.exe
+C:\Users\Adm\source\nested if\bin\Debug\net6.0\nested if.deps.json
+C:\Users\Adm\source\nested if\bin\Debug\net6.0\nested if.runtimeconfig.json
+C:\Users\Adm\source\nested if\bin\Debug\net6.0\nested if.dll
+C:\Users\Adm\source\nested if\bin\Debug\net6.0\nested if.pdb
+C:\Users\Adm\source\nested if\obj\Debug\net6.0\nested if.dll
+C:\Users\Adm\source\nested if\obj\Debug\net6.0\refint\nested if.dll
+C:\Users\Adm\source\nested if\obj\Debug\net6.0\nested if.pdb
+C:\Users\Adm\source\nested if\obj\Debug\net6.0\nested if.genruntimeconfig.cache
+C:\Users\Adm\source\nested if\obj\Debug\net6.0\ref\nested if.dll
