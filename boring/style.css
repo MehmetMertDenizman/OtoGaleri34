@@ -1,0 +1,169 @@
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+
+}
+
+.header {
+    display: flex;
+    background-color: #00003d;
+    justify-content: space-between;
+
+
+}
+
+.bodyy {
+    display: flex;
+    background-color: #00003d;
+    justify-content: space-between;
+
+}
+
+.bodysignup {
+    border: 3px solid white;
+    margin: 0;
+    padding: 0;
+    margin-right: 450px;
+}
+
+.images {
+    display: flex;
+    background-color: grey;
+    margin: 5px;
+    padding: 5px;
+    width: 500px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    margin-left: 500px;
+}
+
+button {
+    background-color: rgb(36, 36, 139);
+    width: 77px;
+    height: 35px;
+
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+
+.logotext {
+    display: flex;
+    gap: 5px;
+    text-align: center;
+    align-items: center;
+    margin-right: 51px;
+
+}
+
+.foottext {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+    margin-right: 290px;
+
+    gap: 5px;
+}
+
+.foot {
+    display: flex;
+    margin-left: 41px;
+
+}
+
+.altfoot {
+    display: flex;
+    color: aliceblue;
+    gap: 11px;
+    flex-direction: column;
+    text-overflow: clip;
+    margin-left: 50px;
+}
+
+
+.imgg {
+    border: 5px solid rgb(0, 68, 255);
+    height: 110px;
+    width: 110px;
+
+}
+
+.fourBorder {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+}
+
+.someraninfo {
+    color: black;
+    font-size: larger;
+    text-align: center;
+
+
+}
+
+.thirdFoot {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    text-align: center;
+
+    padding: 35px;
+
+    margin-bottom: 100px;
+}
+
+.anan {
+    text-align: justify;
+
+    margin-right: 15em;
+    margin-left: 15em;
+
+}
+
+.h3text {
+    text-align: center;
+    margin-left: 38em;
+}
+
+.lastpart {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    color: white;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 200px;
+}
+
+.signupdown {
+    border: 1px solid #E5E7EB;
+    margin-right: 100px;
+    margin-top: 30px;
+    margin-bottom: 43px;
+}
+
+a {
+    text-decoration: double;
+    display: flex;
+    color: rgb(94, 37, 14);
+}
+
+p {
+    color: green;
+}

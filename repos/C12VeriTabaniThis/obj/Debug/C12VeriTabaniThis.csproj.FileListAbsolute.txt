@@ -10,3 +10,4 @@ C:\Users\Adm\source\repos\C12VeriTabaniThis\obj\Debug\C12VeriTabaniThis.csproj.C
 C:\Users\Adm\source\repos\C12VeriTabaniThis\obj\Debug\C12VeriTabaniThis.exe
 C:\Users\Adm\source\repos\C12VeriTabaniThis\obj\Debug\C12VeriTabaniThis.pdb
 C:\Users\Adm\source\repos\C12VeriTabaniThis\obj\Debug\C12VeriTabaniThis.Form2.resources
+C:\Users\Adm\source\repos\C12VeriTabaniThis\obj\Debug\C12VeriTabaniThis.Form3.resources

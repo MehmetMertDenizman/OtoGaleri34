@@ -46,10 +46,10 @@ namespace C12VeriTabaniThis
 
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)//SAVE
         {
             conn.Open();
-            SqlCommand sqlCommand = new SqlCommand("Insert Into Books(id,bookname,author,publisher,pages) Values('" + textBoxID.Text.ToString() + "', '" + textBoxName.Text.ToString() + "','" + textBoxAuthor.Text.ToString() + "','" + textBoxPublisher.Text.ToString() + "','" + textBoxPages.Text.ToString() + "')",conn);
+            SqlCommand sqlCommand = new SqlCommand("Insert Into Books(bookname,author,publisher,pages) Values('" + textBoxBookName.Text.ToString() + "','" + textBoxAuthor.Text.ToString() + "','" + textBoxPublisher.Text.ToString() + "','" + textBoxPages.Text.ToString() + "')",conn);
             sqlCommand.ExecuteNonQuery();
             
             conn.Close();
@@ -62,14 +62,54 @@ namespace C12VeriTabaniThis
             SqlCommand del = new SqlCommand("Delete from Books where id= '"+textBoxID.Text+ "'", conn);
             del.ExecuteNonQuery();
             conn.Close();
+            Show();
 
         }
 
         private void listView1_MouseDoubleClick(object sender, MouseEventArgs e)
         {
             textBoxID.Text =  listView1.SelectedItems[0].SubItems[0].Text;
-            textBoxName.Text = listView1.SelectedItems[0].SubItems[1].Text;
+            textBoxBookName.Text = listView1.SelectedItems[0].SubItems[1].Text;
             textBoxAuthor.Text = listView1.SelectedItems[0].SubItems[2].Text;
+            textBoxPublisher.Text = listView1.SelectedItems[0].SubItems[3].Text;
+            textBoxPages.Text = listView1.SelectedItems[0].SubItems[4].Text;
+        }
+
+        private void buttonForm3_Click(object sender, EventArgs e)
+        {
+            Form3 f3 = new Form3();
+            f3.Show();
+            this.Hide();
+        }
+
+        private void buttonUpdate_Click(object sender, EventArgs e)
+        {
+            conn.Open();
+            string update = "UPDATE Books SET bookname=@bookname, author=@author, publisher=@publisher, pages=@pages where id=@id";
+            SqlCommand cmd = new SqlCommand("UPDATE Books SET bookname=@bookname, author=@author, publisher=@publisher, pages=@pages where id="+Convert.ToInt32(textBoxID.Text), conn);
+            cmd.Parameters.AddWithValue("id", Convert.ToInt32(textBoxID.Text));
+            cmd.Parameters.AddWithValue("bookname", textBoxBookName.Text);
+            cmd.Parameters.AddWithValue("author", textBoxAuthor.Text);
+            cmd.Parameters.AddWithValue("publisher", textBoxPublisher.Text);
+            cmd.Parameters.AddWithValue("pages", textBoxPages.Text);
+            
+
+            cmd.ExecuteNonQuery();
+            conn.Close();
+            Show();
         }
     }
 }
+
+//conn.Open();
+//string update = "update Books set bookname=@bookname, author=@author, publisher=@publisher, pages=@pages where id=@id";
+//SqlCommand cmd = new SqlCommand(update, conn);
+//cmd.Parameters.AddWithValue("@bookname", textBoxBookName.Text);
+//cmd.Parameters.AddWithValue("@author", textBoxAuthor.Text);
+//cmd.Parameters.AddWithValue("@publisher", textBoxPublisher.Text);
+//cmd.Parameters.AddWithValue("@pages", textBoxPages.Text);
+//cmd.Parameters.AddWithValue("@id", textBoxID.Text);
+
+//cmd.ExecuteNonQuery();
+//conn.Close();
+//Show();
