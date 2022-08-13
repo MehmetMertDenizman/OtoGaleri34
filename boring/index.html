@@ -33,7 +33,7 @@
 
 
         <div class="foot">
-            <ul id="foottext2">
+            <ul>
                 <div class="foottext">
                     <li><a href="bc">HAKKINIZDA</a></li>
                     <li><a href="bc">İLETİŞİM</a></li>
@@ -48,7 +48,7 @@
     <div class="bodyy">
 
 
-        <ul id="altfootid">
+        <ul>
             <div class="altfoot">
                 <li>
                     <h1>THIS WEBSITE IS AWESOME</h1>
@@ -125,36 +125,31 @@
 
     </div>
     <script>
-        function add7(number)
-        {
+        function add7(number) {
             return number + 7
 
 
         }
-        function multiply(n)
-        {
+        function multiply(n) {
             return n * n
         }
-        function capitalize(wordy)
-        {
+        function capitalize(wordy) {
             return wordy.charAt(0).toUpperCase() + wordy.slice(1);
         }
-        const capital = (say) =>
-        {
+        const capital = (say) => {
             return say
                 .toLowerCase()
                 .split(" ")
                 .map(say => say.charAt(0).toUpperCase() + say.slice(1))
                 .join(" ");
         }
-        function capitaling(text)
-        {
+        function capitaling(text) {
             var a = text.toLocaleLowerCase('TR').replace(/(^\w{1})|(\s{1}\w{1})/g, match => match.toLocaleUpperCase('TR'));
             return a
 
         }
     </script>
-    <script src="jss.js"></script>
+    <script src="js.js"></script>
 </body>
 
 

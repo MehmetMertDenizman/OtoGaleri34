@@ -1,8 +1,0 @@
-C:\Users\Adm\source\repos\EDConsole\bin\Debug\EDConsole.exe.config
-C:\Users\Adm\source\repos\EDConsole\bin\Debug\EDConsole.exe
-C:\Users\Adm\source\repos\EDConsole\bin\Debug\EDConsole.pdb
-C:\Users\Adm\source\repos\EDConsole\obj\Debug\EDConsole.csproj.AssemblyReference.cache
-C:\Users\Adm\source\repos\EDConsole\obj\Debug\EDConsole.csproj.SuggestedBindingRedirects.cache
-C:\Users\Adm\source\repos\EDConsole\obj\Debug\EDConsole.csproj.CoreCompileInputs.cache
-C:\Users\Adm\source\repos\EDConsole\obj\Debug\EDConsole.exe
-C:\Users\Adm\source\repos\EDConsole\obj\Debug\EDConsole.pdb
