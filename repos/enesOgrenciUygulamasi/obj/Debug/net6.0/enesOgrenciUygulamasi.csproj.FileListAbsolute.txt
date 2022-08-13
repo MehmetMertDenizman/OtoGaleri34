@@ -1,0 +1,15 @@
+C:\Users\Adm\source\repos\enesOgrenciUygulamasi\bin\Debug\net6.0\enesOgrenciUygulamasi.exe
+C:\Users\Adm\source\repos\enesOgrenciUygulamasi\bin\Debug\net6.0\enesOgrenciUygulamasi.deps.json
+C:\Users\Adm\source\repos\enesOgrenciUygulamasi\bin\Debug\net6.0\enesOgrenciUygulamasi.runtimeconfig.json
+C:\Users\Adm\source\repos\enesOgrenciUygulamasi\bin\Debug\net6.0\enesOgrenciUygulamasi.dll
+C:\Users\Adm\source\repos\enesOgrenciUygulamasi\bin\Debug\net6.0\enesOgrenciUygulamasi.pdb
+C:\Users\Adm\source\repos\enesOgrenciUygulamasi\obj\Debug\net6.0\enesOgrenciUygulamasi.csproj.AssemblyReference.cache
+C:\Users\Adm\source\repos\enesOgrenciUygulamasi\obj\Debug\net6.0\enesOgrenciUygulamasi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Adm\source\repos\enesOgrenciUygulamasi\obj\Debug\net6.0\enesOgrenciUygulamasi.AssemblyInfoInputs.cache
+C:\Users\Adm\source\repos\enesOgrenciUygulamasi\obj\Debug\net6.0\enesOgrenciUygulamasi.AssemblyInfo.cs
+C:\Users\Adm\source\repos\enesOgrenciUygulamasi\obj\Debug\net6.0\enesOgrenciUygulamasi.csproj.CoreCompileInputs.cache
+C:\Users\Adm\source\repos\enesOgrenciUygulamasi\obj\Debug\net6.0\enesOgrenciUygulamasi.dll
+C:\Users\Adm\source\repos\enesOgrenciUygulamasi\obj\Debug\net6.0\refint\enesOgrenciUygulamasi.dll
+C:\Users\Adm\source\repos\enesOgrenciUygulamasi\obj\Debug\net6.0\enesOgrenciUygulamasi.pdb
+C:\Users\Adm\source\repos\enesOgrenciUygulamasi\obj\Debug\net6.0\enesOgrenciUygulamasi.genruntimeconfig.cache
+C:\Users\Adm\source\repos\enesOgrenciUygulamasi\obj\Debug\net6.0\ref\enesOgrenciUygulamasi.dll
