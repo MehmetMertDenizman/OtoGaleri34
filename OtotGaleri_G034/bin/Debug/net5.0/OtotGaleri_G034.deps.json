@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "OtotGaleri_G034/1.0.0": {
+        "runtime": {
+          "OtotGaleri_G034.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OtotGaleri_G034/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
