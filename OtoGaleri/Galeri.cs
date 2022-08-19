@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,19 +10,25 @@ namespace OtoGaleri
 {
     public class Galeri
     {
+
+        
+
         Regex regex = new Regex("([0-9]{2,2})([a-zA-Z]{1,3})([0-9]{1,4})$");
-        public List<Araba> Arabalar = new List<Araba>();
+          public static List<Araba> Arabalar = new List<Araba>();
         public void ArabaEkle(List<Araba> araba)
         {
-
-            this.Arabalar.Add(new Araba());
-            Console.WriteLine(Arabalar.Count);
-            Arabalar.ForEach(x => Console.WriteLine($"{x.Plaka} {x.Marka} {x.KiralamaBedeli} {x.KiralamaSayisi} {x.Araba_Tipi}"));
+                 
+                Arabalar.Add(new Araba());
+            //ciro += arabaKirabedeli * saati
+            
+        }
+        public static List<Araba> GetirListe()
+        {
+            return Arabalar;
         }
 
-
         List<string> strings = new List<string>() { "Plaka", "Marka", "K. Bedeli", "Araba Tipi", "K. Sayısı", "Durum" };
-
+        
         public void ArabaKirala()
         {
             bool cikUlancik = false;
@@ -63,10 +70,14 @@ namespace OtoGaleri
                         {
                             Console.Write("Kiralama süresi: ");
                             Araba.KiralamaSuresi = int.Parse(Console.ReadLine());
-                            Console.WriteLine(kiralanacakArabaPlakasi + " Plakalı araba " + Araba.KiralamaSuresi + " saatliğine kiralandı.");
+                            Araba.KiralamaAdet += 1;
+                            Console.WriteLine();
+                            Console.WriteLine(kiralanacakArabaPlakasi.ToUpper() + " Plakalı araba " + Araba.KiralamaSuresi + " saatliğine kiralandı.\n");
                             i.Durum = DURUM.Kirada;
+                            Araba.Ciro += Araba.KiralamaSuresi * i.KiralamaBedeli;
                             cikUlancik = true;
                             break;
+                           
                         }
 
                     }
@@ -82,7 +93,7 @@ namespace OtoGaleri
             }
         }// TAMAMDIR
         public void TumArabalariListele()
-        {
+        { 
             Console.WriteLine("-Tüm Arabalar-");
             Console.Write(String.Format("{0,-20}", strings[0]));
             Console.Write(String.Format("{0,-20}", strings[1]));
@@ -91,10 +102,10 @@ namespace OtoGaleri
             Console.Write(String.Format("{0,-20}", strings[4]));
             Console.Write(String.Format("{0,-20}", strings[5]));
             Console.WriteLine("\n-----------------------------------------------------------------------------------------------------------");
-            Arabalar.ForEach(x => Console.WriteLine($"{x.Plaka.ToUpper(),-19} {x.Marka.ToUpper(),-19} {x.KiralamaBedeli,-19} {x.Araba_Tipi.ToString().ToUpper(),-19} {x.KiralamaSayisi,-19} {x.Durum,-19}"));
+            Arabalar.ForEach(x => Console.WriteLine($"{x.Plaka.ToUpper(),-19} {x.Marka.ToUpper(),-19} { x.KiralamaBedeli ,-19} {x.Araba_Tipi.ToString().ToUpper(),-19} {x.KiralamaSayisi,-19} {x.Durum,-19}"));
             Console.WriteLine();
         }// TAMAMDIR
-
+        
         public void ArabaTeslimAl()
         {
             bool cikis = false;
@@ -128,7 +139,8 @@ namespace OtoGaleri
                             if ((i.Plaka.ToUpper() == teslimAlinacakAraba.ToUpper() && i.Durum == DURUM.Kirada))
                             {
                                 i.Durum = DURUM.Galeride;
-                                Console.WriteLine("Araba galeride beklemeye alındı.");
+                                Console.WriteLine();
+                                Console.WriteLine("Araba galeride beklemeye alındı.\n");
                                 cikis = true;
                                 break;
                             }
@@ -153,15 +165,19 @@ namespace OtoGaleri
 
 
 
-            bool cikUlancik = false;
+            bool cikUlanCik = false;
             Console.WriteLine("-Araba Sil-");
-            while (!cikUlancik)
+            while (!cikUlanCik)
             {
 
-
+                 
                 Console.Write("Silmek istediğiniz arabanın plakasını giriniz: ");
                 string silinecekArabaPlakasi = Console.ReadLine();
-
+                Console.WriteLine();
+                if (Arabalar.Exists(x => x.Plaka.ToUpper() == silinecekArabaPlakasi.ToUpper() &&  (int)x.Durum == 1))
+                {
+                    Console.WriteLine("Araba kirada olduğu için silme işlemi gerçekleştirilemedi.");
+                }
                 if (regex.IsMatch(silinecekArabaPlakasi.ToUpper()) == false)
                 {
                     Console.WriteLine("Bu şekilde plaka girişi yapamazsınız. Tekrar deneyin.");//!!!!!!!!
@@ -170,23 +186,16 @@ namespace OtoGaleri
                 {
                     Console.WriteLine("Galeriye ait bu plakada bir araba yok.");
                 }
-                else if (Arabalar.Exists(x => x.Plaka.ToUpper() == silinecekArabaPlakasi.ToUpper() && Arabalar.Exists(x => x.Durum == DURUM.Galeride)))
+                if (Arabalar.Exists(x => x.Plaka.ToUpper() == silinecekArabaPlakasi.ToUpper() && (int)x.Durum == 2))
                 {
                     Arabalar.RemoveAll(x => x.Plaka.ToUpper().Equals(silinecekArabaPlakasi.ToUpper()));
-                    Console.WriteLine("Araba silindi.");
-                    cikUlancik = true;
+                    Console.WriteLine("Araba silindi.\n");
+                    cikUlanCik = true;
                 }
-                else if (Arabalar.Exists(x => x.Plaka.ToUpper().Equals(silinecekArabaPlakasi.ToUpper())))
-                {
+               
 
 
-                    if (Arabalar.Exists(x => x.Plaka.ToUpper() == silinecekArabaPlakasi.ToUpper() && Arabalar.Exists(x => x.Durum == DURUM.Kirada)))
-                    {
-                        Console.WriteLine("Araba kirada olduğu için silme işlemi gerçekleştirilemedi.");
-                    }
-
-
-                }
+               
 
 
                 
@@ -194,6 +203,60 @@ namespace OtoGaleri
 
 
         }//TAMAM
+        public void Kiralamaİptali()
+        {
+
+            bool cikUlanCik = false;
+            Console.WriteLine("-Kiralama İptali-");
+            while (!cikUlanCik)
+            {
+
+
+                Console.Write("Kiralaması iptal edilecek arabanın plakası: ");
+                string kiralamaIptalPlakasi = Console.ReadLine();
+                 
+                if (Arabalar.Exists(x => x.Plaka.ToUpper() == kiralamaIptalPlakasi.ToUpper() && (int)x.Durum == 2))
+                {
+                    Console.WriteLine("Hatalı giriş yapıldı. Araba zaten galeride. ");
+
+                    
+                }
+                if (Arabalar.Exists(x => x.Plaka.ToUpper() == kiralamaIptalPlakasi.ToUpper() && (int)x.Durum == 1))
+                {
+                    foreach(Araba i in Arabalar)
+                        {
+
+
+                        if ((i.Plaka.ToUpper() == kiralamaIptalPlakasi.ToUpper() && i.Durum == DURUM.Kirada))
+                        {
+                            i.Durum = DURUM.Galeride;
+                            
+                            Console.WriteLine("\nİptal gerçekleştirildi.\n");
+                            cikUlanCik = true;
+                            break;
+                        }
+                    }
+                   
+                }
+                if (regex.IsMatch(kiralamaIptalPlakasi.ToUpper()) == false)
+                {
+                    Console.WriteLine("Bu şekilde plaka girişi yapamazsınız. Tekrar deneyin."); 
+                }
+                else if (!Arabalar.Exists(x => x.Plaka.ToUpper().Equals(kiralamaIptalPlakasi.ToUpper())))
+                {
+                    Console.WriteLine("Galeriye ait bu plakada bir araba yok.");
+                }
+               
+
+
+
+
+
+
+
+            }
+
+        }
         public void KiradakiArabalarıListele()
         {
 
@@ -225,12 +288,26 @@ namespace OtoGaleri
         public void BilgileriGoster()
         {
             Console.WriteLine("Toplam araba sayısı: " + Arabalar.Count());
-             int sayac = 0;foreach (Araba i in Arabalar) {  if (i.Durum == DURUM.Kirada) { sayac++; }; }
-            Console.WriteLine("Kiradaki araba sayısı: " + sayac); ;
-            //Console.WriteLine("Bekleyen araba sayısı: " );
-            //Console.WriteLine("Toplam araba kiralama süresi: ");
-            //Console.WriteLine("Toplam araba kiralama adedi: ");
-            //Console.WriteLine("Ciro: ");
+             int sayacKira = 0;
+            foreach (Araba i in Arabalar) 
+            {  if (i.Durum == DURUM.Kirada)
+                {
+                    sayacKira++; 
+                } 
+            }
+            int sayacGaleri = 0;
+            foreach (Araba i in Arabalar)
+            {
+                if (i.Durum == DURUM.Galeride)
+                {
+                    sayacGaleri++;
+                }
+            }
+            Console.WriteLine("Kiradaki araba sayısı: " + sayacKira);
+            Console.WriteLine("Bekleyen araba sayısı: " + sayacGaleri);
+            Console.WriteLine("Toplam araba kiralama süresi: " + Araba.KiralamaSuresi);
+            Console.WriteLine("Toplam araba kiralama adedi: " + Araba.KiralamaAdet);
+            Console.WriteLine("Ciro: " + Araba.Ciro);
         }
     }
 }
