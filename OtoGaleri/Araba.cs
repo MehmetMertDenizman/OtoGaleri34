@@ -33,7 +33,7 @@ namespace OtoGaleri
             }
             set
             {
-                KiralamaSure += value;
+                KiralamaSure = value;
             }
         }
         public Araba(DURUM durum, string plaka, string marka, float kiralamaBedeli, int kiralamaSayisi, ARABA_TIPI araba_Tipi)
@@ -42,7 +42,7 @@ namespace OtoGaleri
             Plaka = plaka;
             Marka = marka;
             KiralamaBedeli = kiralamaBedeli;
-            KiralamaSayisi = kiralamaSayisi;
+            KiralamaSayisi += kiralamaSayisi;
             Araba_Tipi = araba_Tipi;
         }
 
@@ -102,14 +102,14 @@ namespace OtoGaleri
 
 
                                 if (regexBedel.IsMatch(KiralamaBedeli.ToString()))
-                                {d:
-                                    Console.WriteLine("Araba Tipleri: \nSuv 1\nHatchback 2\nSedan 3");
+                                { 
+                                    Console.WriteLine("Araba Tipleri: \nSuv 1\nHatchback 2\nSedan 3"); d:
                                     Console.Write("Araba Tipi: ");
                                     this.Araba_Tipi = (ARABA_TIPI)int.Parse(Console.ReadLine());
                                     if ((int)Araba_Tipi == 1 || (int)Araba_Tipi == 2 || (int)Araba_Tipi == 3)
                                     {
                                         this.Durum = DURUM.Galeride;
-                                        Console.WriteLine("Araba başarılı bir şekilde eklendi.");
+                                        Console.WriteLine("\nAraba başarılı bir şekilde eklendi.\n");
                                         check = true;
                                         break;
                                     }
