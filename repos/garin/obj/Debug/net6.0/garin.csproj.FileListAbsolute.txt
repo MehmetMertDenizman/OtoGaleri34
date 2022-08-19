@@ -1,0 +1,15 @@
+C:\Users\Adm\source\repos\garin\bin\Debug\net6.0\garin.exe
+C:\Users\Adm\source\repos\garin\bin\Debug\net6.0\garin.deps.json
+C:\Users\Adm\source\repos\garin\bin\Debug\net6.0\garin.runtimeconfig.json
+C:\Users\Adm\source\repos\garin\bin\Debug\net6.0\garin.dll
+C:\Users\Adm\source\repos\garin\bin\Debug\net6.0\garin.pdb
+C:\Users\Adm\source\repos\garin\obj\Debug\net6.0\garin.csproj.AssemblyReference.cache
+C:\Users\Adm\source\repos\garin\obj\Debug\net6.0\garin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Adm\source\repos\garin\obj\Debug\net6.0\garin.AssemblyInfoInputs.cache
+C:\Users\Adm\source\repos\garin\obj\Debug\net6.0\garin.AssemblyInfo.cs
+C:\Users\Adm\source\repos\garin\obj\Debug\net6.0\garin.csproj.CoreCompileInputs.cache
+C:\Users\Adm\source\repos\garin\obj\Debug\net6.0\garin.dll
+C:\Users\Adm\source\repos\garin\obj\Debug\net6.0\refint\garin.dll
+C:\Users\Adm\source\repos\garin\obj\Debug\net6.0\garin.pdb
+C:\Users\Adm\source\repos\garin\obj\Debug\net6.0\garin.genruntimeconfig.cache
+C:\Users\Adm\source\repos\garin\obj\Debug\net6.0\ref\garin.dll
